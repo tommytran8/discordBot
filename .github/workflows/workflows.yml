@@ -12,8 +12,7 @@ defaults:
     working-directory: app
 
 jobs:
-  build:
-
+  ESLint:
     runs-on: ubuntu-latest
 
     steps:
