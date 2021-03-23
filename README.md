@@ -1,10 +1,10 @@
 # meguminBot
 
-A discord bot based on the character Megumin from Konosuba.
+## A discord bot based on the character Megumin from Konosuba.
 
 Has the following commands: 
 
-Fun commands:
+### Fun commands:
   - explosion
   - hi
   - subreddit
@@ -12,12 +12,12 @@ Fun commands:
   - watch
   - website 
 
-Info commands:
+### Info commands:
   - help
   - no
   - server
 
-Moderation commands:
+### Moderation commands:
   - ban
   - kick
   - prune
