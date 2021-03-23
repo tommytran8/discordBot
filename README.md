@@ -2,6 +2,8 @@
 
 ## A discord bot based on the character Megumin from Konosuba.
 
+To get the bot use the following link: https://discord.com/oauth2/authorize?client_id=822278319176155217&scope=bot
+
 Has the following commands: 
 
 ### Fun commands:
