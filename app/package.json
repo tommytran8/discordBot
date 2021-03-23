@@ -1,11 +1,11 @@
 {
-  "name": "discordBot",
+  "name": "meguminBot",
   "version": "1.0.0",
-  "description": "",
+  "description": "meguminBot",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "eslint": "npx eslint *.js"
+    "eslint": "npx eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
   "homepage": "https://github.com/tommytran8/discordBot",
   "dependencies": {
     "@discordjs/opus": "^0.4.0",
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "discord.js": "^12.5.1"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
