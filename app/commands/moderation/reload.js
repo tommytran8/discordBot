@@ -3,6 +3,7 @@ module.exports = {
 	name: 'reload',
     args: true,
     description: 'Reloads a command',
+    guildOnly: true,
     aliases: ['reset', 'reload-command'],
     permissions: 'MANAGE_ROLES',
 	execute(msg, args) {

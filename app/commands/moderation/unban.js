@@ -26,7 +26,7 @@ module.exports = {
             else {
                 const banned = data;
                 const id = banned[args[0]];
-                if (!id) return msg.channel.send("That person is not banned/ Enter a valid username");
+                if (!id) return msg.channel.send("That person is not banned and/or Enter a valid username");
                 delete banned[args[0]];
                 fs.writeFile('./banned.json', JSON.stringify(banned), (err) => {
                     if (err) console.log('Error writing file:', err);
@@ -39,7 +39,7 @@ module.exports = {
                 })
                 .catch(error => {
                     console.log(error);
-                    msg.channel.send("The person is not banned/ Enter a valid username");
+                    msg.channel.send("The person is not banned and/or Enter a valid username");
                 });
             }
         });

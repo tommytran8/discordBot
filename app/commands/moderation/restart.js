@@ -1,6 +1,7 @@
 module.exports = {
 	name: 'restart',
     description: 'Restart meguminBot',
+    guildOnly: true,
     permissions: 'ADMINISTRATOR',
 	execute(msg) {
         try {

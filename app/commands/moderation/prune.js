@@ -3,6 +3,7 @@ module.exports = {
     args: true,
     usage: '[num]', //tells user how to properly use command
     aliases: ['clear', 'clean'],
+    guildOnly: true,
     permissions: 'MANAGE_MESSAGES',
 	execute(msg, args) {
         const amount = parseInt(args[0]) + 1;
